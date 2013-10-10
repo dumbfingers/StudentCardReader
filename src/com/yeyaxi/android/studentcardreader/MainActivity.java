@@ -97,7 +97,8 @@ public class MainActivity extends Activity {
 					}
 				}
 			} catch (Exception exception) {
-				Log.e(TAG, "Error: " + exception.getLocalizedMessage());
+//				Log.e(TAG, "Error: " + exception.getLocalizedMessage());
+				exception.printStackTrace();
 			}
 		}
 	}
